@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+      body {
+        padding: 0;
+        margin: 0;
+        background: salmon;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .kotak-login {
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        padding: 50px;
+        border: 5px solid red;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 10%;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .group-input {
+        margin-bottom: 10px;
+        /* border: 5px solid red; */
+      }
+
+      /* .group-input input {
+        justify-content: end;
+      } */
+
+      button {
+        background-color: green;
+        border: none;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak-login">
+      <h2>Login</h2>
+      <div class="group-input">
+        <label for="username">Username</label>
+        <input type="text" />
+      </div>
+      <div class="group-input">
+        <label for="password">Password</label>
+        <input type="password" />
+      </div>
+      <!-- <input type="button" value="login" /> -->
+      <button>Login</button>
+    </div>
+  </body>
+</html>
